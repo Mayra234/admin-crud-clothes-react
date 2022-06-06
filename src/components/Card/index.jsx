@@ -4,7 +4,7 @@ import './index.css';
 
 export const Card = ({ style, content }) => {
   return (
-    <div id="card" style={style}>
+    <div id="card" style={{ style }}>
       <div class="body-card">{content}</div>
     </div>
   );

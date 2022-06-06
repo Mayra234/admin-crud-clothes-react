@@ -1,0 +1,21 @@
+.menu-item > div {
+  margin: 17px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.menu-item > div > a {
+  color: var(--first-color);
+  display: grid;
+  grid-template-columns: 27px auto;
+  align-items: center;
+}
+
+.menu-item > div > a:hover {
+  color: var(--second-color);
+}
+
+.menu-item > div > a:active {
+  color: var(--color);
+}

@@ -7,5 +7,6 @@ export const Overview = (args) => {
 };
 
 Overview.args = {
+  image: 'https://reactjs.org/logo-og.png',
   mainText: 'Alejandra',
 };

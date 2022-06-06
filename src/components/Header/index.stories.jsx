@@ -3,9 +3,5 @@ import { Header } from './index';
 
 export default { title: 'Components/Header' };
 export const Overview = (args) => {
-  return <Header {...args} />;
-};
-
-Overview.args = {
-  children: 'Home',
+  return <Header />;
 };
