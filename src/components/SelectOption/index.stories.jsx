@@ -2,11 +2,12 @@ import React from 'react';
 import { SelectOption } from '.';
 
 export default { title: 'Components/SelectOption' };
-export const Overview = (args) => {
-  return <SelectOption {...args} />;
-};
-
-Overview.args = {
-  value: 'comida',
-  text: 'comida',
+export const Overview = () => {
+  return (
+    <select>
+      <SelectOption value="mayra" text="Mayra" />
+      <SelectOption value="mario" text="Mario" />
+      <SelectOption value="maria" text="Maria" />
+    </select>
+  );
 };

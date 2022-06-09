@@ -8,5 +8,5 @@ export const Overview = (args) => {
 
 Overview.args = {
   style: 'background: green',
-  text: 'Mayra',
+  children: 'Mayra',
 };

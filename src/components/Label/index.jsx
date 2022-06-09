@@ -1,10 +1,5 @@
 import React from 'react';
-import './index.css';
 
-export const Label = ({ style, children }) => {
-  return (
-    <label style={{ style }} class="form-label">
-      {children}
-    </label>
-  );
+export const Label = ({ children }) => {
+  return <label className="form-label">{children}</label>;
 };

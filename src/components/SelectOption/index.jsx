@@ -1,6 +1,5 @@
 import React from 'react';
-import './index.css';
 
-export const SelectOption = ({ text, value }) => {
-  return <option value={value}>{text}</option>;
+export const SelectOption = ({ props }) => {
+  return <option value={props.value}>{props.text}</option>;
 };

@@ -2,10 +2,18 @@ import React from 'react';
 import { Input } from './index';
 
 export default { title: 'Components/Input' };
-export const Overview = (args) => {
+export const TextInput = (args) => {
   return <Input {...args} />;
 };
 
-Overview.args = {
+TextInput.args = {
   type: 'text',
+};
+
+export const NumberInput = (args) => {
+  return <Input {...args} />;
+};
+
+NumberInput.args = {
+  type: 'number',
 };

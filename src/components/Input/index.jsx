@@ -1,6 +1,7 @@
 import React from 'react';
-import './index.css';
 
-export const Input = ({ type, style, children }) => {
-  return <input className="form-control" type={type} style={{ style }} />;
+export const Input = ({ type, value, name }) => {
+  return (
+    <input className="form-control" type={type} value={value} name={name} />
+  );
 };
