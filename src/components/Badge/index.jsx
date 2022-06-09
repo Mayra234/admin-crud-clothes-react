@@ -1,5 +1,9 @@
 import React from 'react';
 
-export const Badge = () => {
-  return;
+export const Badge = ({ children, style }) => {
+  return (
+    <span className="badge" style={style}>
+      {children}
+    </span>
+  );
 };
