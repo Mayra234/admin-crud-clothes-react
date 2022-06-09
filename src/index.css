@@ -4,7 +4,8 @@
 }
 
 :root {
-  --background-range: #727cf5,
+  --background-check: #8669ed;
+  --background-range: #727cf5;
   --my-font: 'nunito';
   --color: #fff;
   --first-background: #313a46;
@@ -40,7 +41,7 @@ body {
 
 .form-control {
   width: 100%;
-  border: 1px solid var(--second-color);
+  border: 1px solid var(--third-background);
   padding: 7px 8px;
   border-radius: 5px;
   font-size: var(--font-size);
@@ -59,7 +60,42 @@ body {
   padding-left: 5px;
 }
 
-.form-range {
+.form-check {
+  padding-left: 20px;
+}
+
+.form-check-input {
+  -webkit-appearance: none;
+  vertical-align: top;
+  border: 1px solid var(--third-background);
+  width: 2em;
+  height: 1.112em;
+  margin-top: 0.2em;
+  margin-left: -2.5em;
+  background-image: url('../src/assets/images/checkFalse.svg');
+  background-position: left center;
+  background-repeat: no-repeat;
+  border-radius: 2em;
+}
+
+.form-check-input:checked {
+  background: var(--background-check);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-image: url('../src/assets/images/checkTrue.svg');
+}
+
+.input-group {
   width: 100%;
-  background: var(--background-range);
+  display: flex;
+}
+
+.input-group-text {
+  display: flex;
+  align-items: center;
+  padding: 0 0.9rem;
+  color: var(--fourth-color);
+  background: var(--fifth-background);
+  border-radius: 0.25rem;
+  border: 1px solid var(--third-background);
 }

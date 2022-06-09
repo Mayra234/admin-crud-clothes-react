@@ -9,6 +9,12 @@ export const TextInput = (args) => {
 TextInput.args = {
   type: 'text',
   label: 'Name',
+  icon: '@',
+  style: {
+    marginLeft: '-1px',
+    borderTopLeftRadius: 0,
+    borderBottomLeftRadius: 0,
+  },
 };
 
 export const NumberInput = (args) => {

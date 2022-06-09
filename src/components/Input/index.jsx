@@ -1,11 +1,24 @@
 import React from 'react';
 import { Label } from '../Label';
 
-export const Input = ({ type, value, name, label }) => {
+export const Input = ({ type, value, name, label, id, icon, style }) => {
   return (
     <>
       {label && <Label>{label}</Label>}
-      <input className="form-control" type={type} value={value} name={name} />
+      <div className="input-group">
+        {icon && (
+          <span className="input-group-text" id={id}>
+            {icon}
+          </span>
+        )}
+        <input
+          style={style}
+          className="form-control"
+          type={type}
+          value={value}
+          name={name}
+        />
+      </div>
     </>
   );
 };
