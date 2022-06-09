@@ -2,14 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { SelectOption } from '../SelectOption';
 
-export const Select = ({ props }) => {
+export const Select = (props) => {
   return (
     <select className={'form-control' + props.className} name={props.name}>
-      {props.options
-        .map((option) =>
-          SelectOption({ text: option.text, value: option.value })
-        )
-        .join('')}
+      {props.options.map((option) => (
+        <SelectOption {...option} />
+      ))}
     </select>
   );
 };

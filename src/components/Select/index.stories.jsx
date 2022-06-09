@@ -4,14 +4,12 @@ import { Select } from '.';
 export default { title: 'Components/Select' };
 export const Overview = () => {
   return (
-    <Select>
-      {
-        (props.options = [
-          { text: 'Seleccionar...' },
-          { value: 1, text: 'Mayra' },
-          { value: 2, text: 'Angélica' },
-        ])
-      }
-    </Select>
+    <Select
+      options={[
+        { text: 'Seleccionar...' },
+        { value: 1, text: 'Mayra' },
+        { value: 2, text: 'Angélica' },
+      ]}
+    />
   );
 };
