@@ -9,7 +9,6 @@ export const Button = ({ disabled, style, children }) => {
     </button>
   );
 };
-
 Button.propTypes = {
   disabled: PropTypes.bool,
 };

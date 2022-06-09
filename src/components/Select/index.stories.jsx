@@ -6,7 +6,7 @@ export const Overview = () => {
   return (
     <Select
       options={[
-        { text: 'Seleccionar...' },
+        { value: '', text: 'Seleccionar...' },
         { value: 1, text: 'Mayra' },
         { value: 2, text: 'Angélica' },
       ]}

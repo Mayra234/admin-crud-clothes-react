@@ -1,12 +1,17 @@
 import React from 'react';
+import { TableHeader } from '../TableHeader';
+import { TableRow } from '../TableRow';
 import { TableHead } from './index';
 
 export default { title: 'Components/TableHead' };
 export const Overview = (args) => {
-  return <TableHead {...args} />;
-};
-
-Overview.args = {
-  style: 'background: red',
-  headers: [{ text: 'Nombre' }],
+  return (
+    <table>
+      <TableHead>
+        <TableRow>
+          <TableHeader>Hola</TableHeader>
+        </TableRow>
+      </TableHead>
+    </table>
+  );
 };

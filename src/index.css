@@ -4,6 +4,7 @@
 }
 
 :root {
+  --background-range: #727cf5,
   --my-font: 'nunito';
   --color: #fff;
   --first-background: #313a46;
@@ -56,4 +57,9 @@ body {
   margin-bottom: 0.5rem;
   font-weight: 600;
   padding-left: 5px;
+}
+
+.form-range {
+  width: 100%;
+  background: var(--background-range);
 }

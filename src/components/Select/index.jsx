@@ -4,7 +4,11 @@ import { SelectOption } from '../SelectOption';
 
 export const Select = (props) => {
   return (
-    <select className={'form-control' + props.className} name={props.name}>
+    <select
+      className={`form-control ${props.className}`}
+      name={props.name}
+      value={props.value}
+    >
       {props.options.map((option) => (
         <SelectOption {...option} />
       ))}
@@ -16,4 +20,5 @@ Select.propTypes = {
   options: PropTypes.array,
   className: PropTypes.string,
   name: PropTypes.string,
+  value: PropTypes.any,
 };

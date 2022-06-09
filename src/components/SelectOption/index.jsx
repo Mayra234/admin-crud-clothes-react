@@ -1,5 +1,5 @@
 import React from 'react';
 
-export const SelectOption = ({ props }) => {
+export const SelectOption = (props) => {
   return <option value={props.value}>{props.text}</option>;
 };
