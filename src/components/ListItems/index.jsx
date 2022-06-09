@@ -2,15 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { MenuItem } from '../MenuItem';
 
-export const ListItems = (items) => {
+export const ListItems = (props) => {
   return (
-    <div>
-      {items
-        .map((item) => {
-          MenuItem({ text: item.text, icon: item.icon });
-        })
-        .join('')}
-    </div>
+    <>
+      {props.items.map((item) => (
+        <MenuItem {...item} />
+      ))}
+    </>
   );
 };
 

@@ -8,6 +8,7 @@ export const TextInput = (args) => {
 
 TextInput.args = {
   type: 'text',
+  label: 'Name',
 };
 
 export const NumberInput = (args) => {
@@ -16,4 +17,5 @@ export const NumberInput = (args) => {
 
 NumberInput.args = {
   type: 'number',
+  label: 'Age',
 };
