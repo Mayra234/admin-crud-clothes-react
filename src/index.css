@@ -99,11 +99,3 @@ body {
   border-radius: 0.25rem;
   border: 1px solid var(--third-background);
 }
-
-.badge {
-  border-radius: 50rem;
-  display: inline-block;
-  padding: 0.25em 0.4em;
-  line-height: 1;
-  text-align: center;
-}
