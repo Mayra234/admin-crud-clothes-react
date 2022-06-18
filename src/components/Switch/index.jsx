@@ -5,7 +5,12 @@ import { Label } from '../Label';
 export const Switch = (props) => {
   return (
     <div className="form-check">
-      <input className="form-check-input" type="checkbox" name={props.name} />
+      <input
+        className="form-check-input"
+        type="checkbox"
+        name={props.name}
+        disabled={props.disabled}
+      />
       {props.label && <Label>{props.label}</Label>}
     </div>
   );
@@ -14,4 +19,5 @@ export const Switch = (props) => {
 Switch.propTypes = {
   name: PropTypes.string,
   label: PropTypes.string,
+  disabled: PropTypes.bool,
 };

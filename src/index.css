@@ -106,20 +106,6 @@ table {
   border: 1px solid var(--third-background);
 }
 
-.badge {
-  border-radius: 50rem;
-  display: inline-block;
-  padding: 0.25em 0.4em;
-  line-height: 1;
-  text-align: center;
-}
-
-.range {
-  width: 100%;
-  border-radius: 5px;
-  appearance: none;
-}
-
 .form-element {
   font-size: 25px;
   padding: 24px 0;
