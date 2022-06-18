@@ -1,8 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import './index.css';
 
-export const Avatar = ({ image, mainText }) => {
+export const Avatar = ({ image, mainText = '' }) => {
   return (
     <div class="avatar">
       <span>

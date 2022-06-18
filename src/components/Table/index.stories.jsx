@@ -44,3 +44,30 @@ export const OverviewTwo = () => {
     </Table>
   );
 };
+
+export const TableExample2 = () => (
+  <Table>
+    <TableHead>
+      <TableRow>
+        <TableHeader>id</TableHeader>
+        <TableHeader>compañia</TableHeader>
+        <TableHeader>material</TableHeader>
+        <TableHeader>nombre</TableHeader>
+        <TableHeader>precio</TableHeader>
+        <TableHeader>cantidad</TableHeader>
+        <TableHeader>acciones</TableHeader>
+      </TableRow>
+    </TableHead>
+    <TableBody>
+      <TableRow>
+        <TableCell>Vacio</TableCell>
+        <TableCell>Vacio</TableCell>
+        <TableCell>Vacio</TableCell>
+        <TableCell>Vacio</TableCell>
+        <TableCell>Vacio</TableCell>
+        <TableCell>Vacio</TableCell>
+        <TableCell>Vacio</TableCell>
+      </TableRow>
+    </TableBody>
+  </Table>
+);

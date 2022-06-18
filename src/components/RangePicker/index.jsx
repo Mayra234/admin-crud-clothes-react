@@ -8,7 +8,7 @@ export const RangePicker = (props) => {
       {props.label && <Label>{props.label}</Label>}
       <input
         style={props.style}
-        className="form-control"
+        className="range"
         type="range"
         min={props.min}
         max={props.max}

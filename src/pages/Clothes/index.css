@@ -1,0 +1,9 @@
+.clothes-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.field-button {
+  display: flex;
+  align-items: center;
+}

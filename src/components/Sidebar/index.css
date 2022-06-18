@@ -2,10 +2,7 @@
   font-size: var(--font-size-one);
   background: var(--first-background);
   line-height: 1.5;
-  display: grid;
-  grid-template-rows: auto 1fr;
   width: 100%;
+  max-width: 200px;
   height: 100%;
-  min-width: 400px;
-  min-height: 400px;
 }

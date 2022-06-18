@@ -31,12 +31,18 @@
 }
 
 html,
-body {
+body,
+#root {
   height: 100%;
 }
 
 body {
   font-family: var(--my-font);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
 }
 
 .form-control {
@@ -106,4 +112,27 @@ body {
   padding: 0.25em 0.4em;
   line-height: 1;
   text-align: center;
+}
+
+.range {
+  width: 100%;
+  border-radius: 5px;
+  appearance: none;
+}
+
+.form-element {
+  font-size: 25px;
+  padding: 24px 0;
+  color: var(--fourth-color);
+}
+
+.field {
+  padding: 0 10px;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.container-table {
+  width: 100%;
+  margin-top: 25px;
 }

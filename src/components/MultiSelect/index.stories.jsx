@@ -10,7 +10,8 @@ export const Overview = () => {
         { value: 'papa', text: 'Papa' },
         { value: 'yuca', text: 'Yuca' },
         { value: 'arroz', text: 'Arroz' },
-        { value: 'maiz', text: 'Maíz' },
+        { value: 'a', text: 'a' },
+        { value: 'b', text: 'b' },
       ]}
     />
   );

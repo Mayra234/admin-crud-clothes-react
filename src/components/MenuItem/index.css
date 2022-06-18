@@ -1,5 +1,5 @@
 .menu-item > div {
-  margin: 17px;
+  padding-top: 17px;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -10,6 +10,8 @@
   display: grid;
   grid-template-columns: 27px auto;
   align-items: center;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .menu-item > div > a:hover {

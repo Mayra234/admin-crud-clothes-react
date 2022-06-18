@@ -4,7 +4,7 @@ import './index.css';
 
 export const Button = ({ disabled, style, children }) => {
   return (
-    <button style={style} disabled={disabled}>
+    <button className="button" style={style} disabled={disabled}>
       {children}
     </button>
   );
