@@ -5,8 +5,8 @@ import { MenuItem } from '../MenuItem';
 export const ListItems = (props) => {
   return (
     <>
-      {props.items.map((item) => (
-        <MenuItem {...item} />
+      {props.items.map((item, i) => (
+        <MenuItem key={i} {...item} />
       ))}
     </>
   );

@@ -3,7 +3,7 @@ import './index.css';
 
 export const Avatar = ({ image, mainText = '' }) => {
   return (
-    <div class="avatar">
+    <div className="avatar">
       <span>
         {image ? (
           <img style={{ objectFit: 'cover' }} src={image} />
@@ -12,7 +12,7 @@ export const Avatar = ({ image, mainText = '' }) => {
         )}
       </span>
       <div>
-        <span class="avatar-name">{mainText}</span>
+        <span className="avatar-name">{mainText}</span>
       </div>
     </div>
   );

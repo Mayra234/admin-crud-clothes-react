@@ -1,0 +1,70 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "Arturo Calle",
+      "nit": "22112"
+    },
+    {
+      "id": 2,
+      "name": "Nike",
+      "nit": "22322"
+    },
+    {
+      "id": 3,
+      "name": "Adidas",
+      "nit": "12101"
+    },
+    {
+      "id": 4,
+      "name": "Falabella",
+      "nit": "23223"
+    },
+    {
+      "id": 5,
+      "name": "Mango",
+      "nit": "43321"
+    },
+    {
+      "id": 6,
+      "name": "Prada",
+      "nit": "12345"
+    }
+  ],
+  "materials": [
+    {
+      "id": 1,
+      "name": "Algodón"
+    },
+    {
+      "id": 2,
+      "name": "Seda"
+    },
+    {
+      "id": 3,
+      "name": "Licra"
+    },
+    {
+      "id": 4,
+      "name": "Lana"
+    },
+    {
+      "id": 5,
+      "name": "Drill"
+    },
+    {
+      "id": 6,
+      "name": "Paño"
+    }
+  ],
+  "clothes": [
+    {
+      "companyId": 3,
+      "materialId": 1,
+      "name": "Camisa caballero",
+      "price": 2000,
+      "quantity": 100,
+      "id": 1
+    }
+  ]
+}

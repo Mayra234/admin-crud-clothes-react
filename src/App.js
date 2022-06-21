@@ -5,8 +5,23 @@ import { Dashboard } from './pages/Dashboard';
 import { Employees } from './pages/Employees';
 import { Materials } from './pages/Materials';
 import { Companies } from './pages/Companies';
+import { useClotheApi } from './apis/useClotheApi';
+import { useEffect } from 'react';
 
 function App() {
+  const clotheApi = useClotheApi();
+
+  const listClothes = async () => {
+    console.log(await clotheApi.list());
+  };
+
+  /**
+   * Mounted
+   */
+  useEffect(() => {
+    listClothes();
+  }, []);
+
   return (
     <BrowserRouter>
       <Routes>
