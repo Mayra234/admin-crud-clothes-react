@@ -7,7 +7,7 @@ import { faArrowRightFromBracket } from '@fortawesome/free-solid-svg-icons';
 
 export const Navbar = () => {
   return (
-    <div class="navbar">
+    <div className="navbar">
       <div></div>
       <div>
         <Avatar mainText="Mayra" />

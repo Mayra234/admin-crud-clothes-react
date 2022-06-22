@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export const MenuItem = ({ style, icon, text, to = '' }) => {
   return (
-    <div class="menu-item">
+    <div className="menu-item">
       <div>
         <Link style={{ style }} to={to}>
           {icon && <i className={'fa-solid fa-' + icon}></i>}

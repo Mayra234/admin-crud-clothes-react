@@ -1,0 +1,52 @@
+.header-login {
+  margin: 0 38px;
+}
+
+.header-login > h4 {
+  margin: 10px 0;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.header-login > p {
+  margin-bottom: 36px;
+  font-size: var(--font-size);
+  color: var(--third-color);
+}
+.watch-password {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.control-password {
+  flex: 1 1 auto;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.45rem 0.9rem;
+  background: var(--second-background);
+  border: 1px solid var(--second-color);
+  border-radius: 0.25rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.float {
+  float: right;
+  color: var(--third-color);
+  text-decoration: none;
+}
+
+.form-check > label {
+  padding-left: 5px;
+}
+
+.text-center {
+  text-align: center;
+}

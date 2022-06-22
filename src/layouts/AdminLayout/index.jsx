@@ -9,13 +9,13 @@ import { SIDEBAR_MENU } from '../../constants/menus';
 
 export const AdminLayout = ({ children }) => {
   return (
-    <div class="admin-layout">
+    <div className="admin-layout">
       <div>
         <Header>
           <Navbar />
         </Header>
       </div>
-      <div class="main-container">
+      <div className="main-container">
         <div>
           <Sidebar>
             <ListItems items={SIDEBAR_MENU} />

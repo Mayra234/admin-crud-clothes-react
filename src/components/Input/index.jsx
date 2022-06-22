@@ -1,7 +1,16 @@
 import React from 'react';
 import { Label } from '../Label';
 
-export const Input = ({ type, value, name, label, id, icon, style }) => {
+export const Input = ({
+  type,
+  value,
+  name,
+  label,
+  id,
+  icon,
+  style,
+  placeholder,
+}) => {
   return (
     <>
       {label && <Label>{label}</Label>}
@@ -17,6 +26,7 @@ export const Input = ({ type, value, name, label, id, icon, style }) => {
           type={type}
           value={value}
           name={name}
+          placeholder={placeholder}
         />
       </div>
     </>

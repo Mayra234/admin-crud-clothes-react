@@ -7,6 +7,8 @@ import { Materials } from './pages/Materials';
 import { Companies } from './pages/Companies';
 import { useClotheApi } from './apis/useClotheApi';
 import { useEffect } from 'react';
+import { AuthLayout } from './layouts/AuthLayout';
+import { Login } from './pages/Login';
 
 function App() {
   const clotheApi = useClotheApi();
@@ -25,6 +27,14 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route
+          path="/login"
+          element={
+            <AuthLayout>
+              <Login />
+            </AuthLayout>
+          }
+        />
         <Route
           path="/dashboard"
           element={
